@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('Fundo\ Love\ E\ Commerce\ Pink\ Background\ Romantic\ Valentine\'s\ Day\ Fundo\,\ Love\,\ Through\ Train\,\ E\ Commerce\ Imagem\ de\ plano\ de\ fundo\ para\ download\ gratuito.jpeg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+}
+
+.letter-container {
+    background: rgba(255, 182, 193, 0.5); /* Light pink background */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.btn-pink {
+    background-color: #ff69b4; /* Hot pink */
+    border: none;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.btn-pink:hover {
+    background-color: #ff1493; /* Deeper pink on hover */
+}
+
+.modal-content {
+    background-color: #ffe4e1; /* Light pink for the modal */
+    color: black;
+}
+
+.modal-header, .modal-footer {
+    border: none;
+}
+
+.hearts {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    overflow: hidden;
+}
+
+.heart {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    background-color: #ff69b4;
+    transform: rotate(45deg);
+    animation: animateHeart 2s linear infinite;
+}
+
+.heart:before, .heart:after {
+    content: '';
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    background-color: #ff69b4;
+    border-radius: 50%;
+}
+
+.heart:before {
+    top: -5px;
+    left: 0;
+}
+
+.heart:after {
+    top: 0;
+    left: -5px;
+}
+
+@keyframes animateHeart {
+    0% {
+        transform: translateY(0) rotate(45deg);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(600px) rotate(45deg);
+        opacity: 0;
+    }
+}
+
+.btn-close {
+    background-color: #ff69b4; /* Hot pink close button */
+}
+
+.btn-close:hover {
+    background-color: #ff1493; /* Deeper pink on hover */
+}
