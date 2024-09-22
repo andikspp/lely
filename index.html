@@ -12,8 +12,8 @@
 <body>
     <div class="container text-center">
         <div class="letter-container">
-            <h3 class="text-black">From: Bang Dhika</h3>
-            <h3 class="text-black">To: Neng Nalla</h3>
+            <h3 class="text-black">From: Mas Andhika</h3>
+            <h3 class="text-black">To: Dek Lely</h3>
             <button id="open-letter" class="btn btn-lg btn-pink mt-4" data-bs-toggle="modal"
                 data-bs-target="#loveModal">Buka
                 Surat Ini :D</button>
@@ -25,17 +25,59 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="loveModalLabel">Message for Nalla</h5>
+                    <h5 class="modal-title" id="loveModalLabel">Message for Lely</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    Semangat ya kuliahnya, semoga jerih payah kamu selama ini terbayarkan di masa depan. Kamu adalah
-                    alasan aku tersenyum setiap hari😊. <br>
-                    <br>
-                    Aku punya pantun dong😁 <br>
-                    <br>
-                    Buah kedondong di makan sapi <br>
-                    I was born to make you happy
+                    <!-- Carousel -->
+                    <div id="lelyCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <!-- Slide 1 -->
+                            <div class="carousel-item active">
+                                <img src="lely.jpg" alt="Foto Lely 1" class="d-block w-100 img-fluid"
+                                    style="max-width: 50%; margin: 0 auto;">
+                                <div class="carousel-caption">
+                                    <p>Sayangku berangkat kuliah</p>
+                                </div>
+                            </div>
+                            <!-- Slide 2 -->
+                            <div class="carousel-item">
+                                <img src="lely2.jpg" alt="Foto Lely 2" class="d-block w-100 img-fluid"
+                                    style="max-width: 50%; margin: 0 auto;">
+                                <div class="carousel-caption">
+                                    <p>Manisku</p>
+                                </div>
+                            </div>
+                            <!-- Slide 3 -->
+                            <div class="carousel-item">
+                                <img src="lely3.jpg" alt="Foto Lely 3" class="d-block w-100 img-fluid"
+                                    style="max-width: 50%; margin: 0 auto;">
+                                <div class="carousel-caption">
+                                    <p>Gemas</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Carousel Controls -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#lelyCarousel"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#lelyCarousel"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                    <!-- Text message -->
+                    <div class="text-center mt-4">
+                        Semangat ya kuliahnya, semoga jerih payah kamu selama ini terbayarkan di masa depan. Kamu adalah
+                        alasan aku tersenyum setiap hari😊. I love you Lely sayang🥰 <br><br>
+                        Aku punya pantun dong😁 <br><br>
+                        Buah kedondong di makan sapi <br>
+                        I was born to make you happy
+                    </div>
                     <div class="hearts" id="hearts"></div>
                 </div>
                 <div class="modal-footer">
